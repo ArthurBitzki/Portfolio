@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --vermelho:#e3646e;
+    --roxo:#bb72e9;
+    --azul:#3996db;
+    --verde:#82bc4f;
+    --amarelo:#eabd6f;
+    --cinza100:#e2e4e9;
+    --cinza200:#c0c4ce;
+    --cinza300:#878ea1;
+    --cinza400:#292c34;
+    --cinza500:#16181d;
+    --cinza600:#0d0e11;
+
+    --asap: 'Asap', Sans-serif;
+    --inconsolata:'Inconsolata';
+    --maven:'Maven Pro';
+    
+    --titleG: 600 56px/120% var(--asap);
+    --tilteM: 600 24px/120% var(--asap);
+    --titleP: 600 16px/120% var(--asap);
+
+    --subtitle: 400 20px120% var(--inconsolata);
+
+    --textM: 400 16px/140% var(--maven);
+    --textP: 400 14px/140% var(--maven);
+}
+
+body{
+    width: 100%;
+    background-color: var(--cinza500);
+}
+
+.subT{
+    font: var(--subtitle);
+    color: var(--cinza200);
+}
+.titG{
+    font: var(--titleG);
+    color: var(--cinza100);
+}
+.titM{
+    font: var(--tilteM);
+    color: var(--cinza100);
+}
+.txtP{
+    font: var(--textP);
+    color: var(--cinza300);
+}
+.txtM{
+    font: var(--textM);
+    color: var(--cinza200);
+}
+.titP{
+    font: var(--titleP);
+    color: var(--cinza100);
+}
+a {
+    display: contents;
+}

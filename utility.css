@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+}
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+.grid-cols2{
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    width: 686px;
+}
+.containerCard{
+    width: 330px;
+    height: 280px;
+    background-color: var(--cinza400);
+    border-radius: 15px;
+}
+.containerIMG{
+    width: 300px;
+    height: 156px;
+    margin: 12px auto 16px;
+}
+.projetoIMG{
+    width: 100%;
+    border-radius: 12px;
+}
+.containerTEXT{
+    margin: 25px 12px;
+}
+.titP{
+    margin-bottom: 8px;
+}
+.grid-flow-row{
+    grid-auto-flow: row;
+    width: 584px;
+    margin: auto;
+}
